@@ -7,24 +7,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+   
+    <title>Quizxx</title>
 
-    <title>Quizizz</title>
-
-    <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-
     <link href="css/custom.css" rel="stylesheet">
-
     <!-- Custom Fonts from Google -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     
 </head>
 
 <body>
-
-    <!-- Navigation -->
+   <!-- Navigation -->
     <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Logo and responsive toggle -->
@@ -61,61 +56,58 @@
         </div><!-- /.container -->
     </nav>
 
-	<!-- Header -->
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h2>Bright emotions, happy audiences & Quizxx</h2>
-                <p>During this time use Quizxx for distance learning
-                </p>
-                <a href="#" class="btn btn-primary btn-lg">Get Started</a>
-            </div>
-        </div>
-    </header>
-
 	
+	
+<!-- Header -->
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h2>Bright emotions, happy audiences & Quizxx</h2>
+            <p>During this time use Quizxx for distance learning
+            </p>
+            <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+        </div>
+    </div>
+</header>
 
 
     <!-- Promos -->
 	<div class="container-fluid">
         <div class="row promo">
-        	<a href="#">
-				<div class="col-md-4 promo-item item-1">
-					
+        	
+				<div class="col-md-6 promo-item item-1">
+                       <h3>DBMS</h3>
+                       <form method="POST" style="visibility:hidden" action="topic.php">
+                        <input type="hidden" name="topic" value="dbms">
+                </div>
+               
+				<div class="col-md-6 promo-item item-2">
+                   <form method="POST" style="visibility:hidden" action="topic.php">
+                    <input type="hidden" name="topic" value="os">
+                </form>
 				</div>
-            </a>
-            <a href="#">
-				<div class="col-md-4 promo-item item-2">
-					
+           
+				<div class="col-md-6 promo-item item-3">
+                <h3>NETWORKING</h3>	
+                <form method="POST" style="visibility:hidden" action="topic.php">
+                    <input type="hidden" name="topic" value="networking">
 				</div>
-            </a>
-			
-			<a href="#">
-				<div class="col-md-4 promo-item item-3">
-					<h3>
-						NETWORKING
-					</h3>
+            
+				<div class="col-md-6 promo-item item-4">
+					<form method="POST" style="visibility:hidden" action="topic.php">
+                        <input type="hidden" name="topic" value="c++">
 				</div>
-            </a>
-
-            <a href="#">
-				<div class="col-md-4 promo-item item-4">
-					
+            
+				<div class="col-md-6 promo-item item-5">
+                    <form method="POST" style="visibility:hidden" action="topic.php">
+                        <input type="hidden" name="topic" value="java">
 				</div>
-            </a>
-            <a href="#">
-				<div class="col-md-4 promo-item item-5">
-					<h3>
-						JAVA
-					</h3>
+        
+				<div class="col-md-6 promo-item item-6">
+                    <form method="POST" style="visibility:hidden" action="topic.php">
+                        <input type="hidden" name="topic" value="python">	
 				</div>
-            </a>
-			
-			<a href="#">
-				<div class="col-md-4 promo-item item-6">
-					
-				</div>
-            </a>
+        
 
         </div>
     </div><!-- /.container-fluid -->
@@ -161,7 +153,7 @@
         	
         <!-- Copyright etc -->
         
-        		<p>Copyright &copy; CyberQuiz 20</p>
+        		<p>Copyright &copy; CyberQuiz 2020</p>
         
         
     </footer>
